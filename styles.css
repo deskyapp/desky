@@ -30,12 +30,13 @@ h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 1rem;
+    padding-bottom: 0;
 }
 
 /* Hero section styles */
 .hero {
     text-align: center;
-    padding: 4rem 0;
+    padding:  0;
 }
 
 .hero-image {
@@ -125,6 +126,7 @@ h1 {
 .feature-title {
     font-size: 2rem;
     margin-bottom: 0.5rem;
+
 }
 
 .feature-subtitle {
@@ -204,6 +206,7 @@ h1 {
 .accordion-content.active {
     max-height: 200px;
 }
+
 
 /* CTA section styles */
 .cta {
